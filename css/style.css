@@ -20,6 +20,9 @@ h1{
     font-size: 250%;
     color: #000;
 }
+h1 a{
+    text-decoration: none;
+}
 h2{
     text-align: center;
 }
