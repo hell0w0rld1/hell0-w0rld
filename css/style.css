@@ -14,6 +14,16 @@ body{
     margin: 20px auto;
     font-size: 140%;
 }
+/* 
+hr{
+    width: 1px;
+    height: 1px;
+    transition: 1.0s;
+}
+
+.changehr{
+    width: auto;
+} */
 
 
 h1{
@@ -39,12 +49,15 @@ p{
 
 /* header */
 #maintitle{
+    width: 350px;
+    margin:38px auto;
     height: 80px;
     text-align: center;
+    border-radius: 20px;
+    transition: 3.8s;
 }
-.maintitle2{
-    transition: 0.8s;
-    color: aquamarine;
+.changemain{
+    background-color: rgba(123, 226, 158, 0.719);
 }
 #maintitle div{
     display: inline-block;
@@ -154,4 +167,8 @@ footer{
     color: forestgreen;
     font-size: 110%;
     margin-left: 20px;
+}
+
+.chgdiary{
+    background-color: antiquewhite;
 }

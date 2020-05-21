@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -5,13 +7,16 @@
     <meta content="width=device-width, initial-scale=1">
     <title>hell0w0rld</title>
     <link rel="stylesheet" href="css/style.css">
+
+    
 </head>
 
 <body>
+    
 
     <header>
         <h1 id="maintitle">
-            <a href="index.html"><div>hell0, w0rld</div></a>
+            <a href="index.html"><div>hell0-w0rld</div></a>
         </h1>
         <div class="subtitle">portfolio site</div>
 
@@ -43,6 +48,22 @@
 
     <div>
         <h2>blog</h2>
+    </div>
+
+    <div class="diary">
+        <h3>20200521</h3>
+        <p>
+            今日はページのロード時に実行されるJavaScriptを実装してみた。<br/>
+            ちなみに、レンダリングの関係で先にHTMLが読み込まれてからscriptが実行されるように、
+            bodyタグの末尾（閉じられる直前に）scriptタグを入れるのが良いらしい。<br/><br/>
+            オンラインで学習できる<a href="https://www.udemy.com/">Udemy</a>というweb講座も登録してみた。めちゃくちゃコンテンツがあるので、無料でもかなり使えそう。<br/>
+            英語のコンテンツの方が多いので英語の勉強も並行しながらできたらいいなぁ。
+        </p>
+        <h5>TO DO</h5>
+        <ul>
+            <li>引き続きJavaScriptの学習</li>
+            <li>AtCoderの過去問で練習する（なかなかやる時間がとれていない...）</li>
+        </ul>
     </div>
 
     <div class="diary">
@@ -126,4 +147,7 @@
         <p>&copy;Copyright 2020 hell0-w0rld</p>
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
+
+</html>
